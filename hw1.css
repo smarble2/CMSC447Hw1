@@ -1,0 +1,84 @@
+/*
+Author: Shianne Marbley
+File: hw1.css
+*/
+body{
+    background-color: lightblue;
+}
+.menu{
+    background-color: black;
+    border-radius: 8px;
+}
+@media only screen and (max-width:600px){
+    body {background-color: lightblue;}
+}
+.menu span{
+    padding: 5px;
+    font-size: 2em;
+    display: inline-block;
+}
+.menu span a:link,a:visited{
+    color: white;
+    text-decoration: underline;
+}
+.menu span a:hover{
+    color:gray;
+    text-decoration: underline;
+}
+.menu span a:active{
+    color:red;
+    text-decoration:underline;
+}
+
+#homeMessage{
+    color:black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+#homeMessage:hover {
+    /* when hover over homemsg its spiins*/
+    transition: transform 0.8s;
+    transform: rotateY(360deg); 
+}
+#message{
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Papyrus, fantasy;
+    text-decoration: underline;
+}
+#message2{
+    color:white;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Papyrus, fantasy;   
+}
+#message3{
+    color:white;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Papyrus, fantasy;
+}
+#message4{
+    color:white;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Papyrus, fantasy;
+}
+img {
+    width:200px;
+    height: 250px;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+}
+img:hover{
+    /* when hover over homemsg its spiins*/
+    transition: transform 0.8s;
+    transform: rotateY(360deg); 
+}
+sub {
+    font-size: 1em;
+}
+
+
