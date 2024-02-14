@@ -24,6 +24,9 @@ function myFunction() {
     var pic = document.getElementById("shianne-pic");
     pic.style.display = "block"; //causes the image to t show
 
+    var pic = document.getElementById("welcome-pic");
+    pic.style.display = "none"; //causes the image to not show
+
     
 }
 function homeFunction() {
@@ -47,6 +50,7 @@ function homeFunction() {
     var pic = document.getElementById("shianne-pic");
     pic.style.display = "none"; //causes the image to not show
 
-
+    var pic = document.getElementById("welcome-pic");
+    pic.style.display = "block"; //causes the image to t show
 }
 
